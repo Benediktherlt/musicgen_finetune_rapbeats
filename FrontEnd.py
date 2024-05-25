@@ -8,7 +8,7 @@ st.title('Rap Generator')
 st.write("Welcome to the Rap Generator! Enter lyrics or select a style to create your own rap.")
 
 # Text input for lyrics
-user_input = st.text_input("Enter smth here:")
+user_input = st.text_input("Enter here:")
 
 # Option to select a rapper style
 style_options = ['Rapper1', 'Rapper2', 'Rapper3', 'Rapper4']
