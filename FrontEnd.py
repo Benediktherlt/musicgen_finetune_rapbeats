@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 
 # Title of the app
-st.title('Rap Generatorr')
+st.title('Rap Generator')
 
 # Introduction text
 st.write("Welcome to the Rap Generator! Enter lyrics or select a style to create your own rap.")
