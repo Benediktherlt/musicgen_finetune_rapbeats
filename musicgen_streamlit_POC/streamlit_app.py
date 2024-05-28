@@ -1,11 +1,14 @@
 import streamlit as st
 import requests
 
-st.title('Rap Generator')
+# Title of the app
+st.title('Rap Generatorr')
 
-st.write("Welcome to the Rap Generator! Enter lyrics or select a style to create your own rap.")
+# Introduction text
+st.write("Welcome to the Rap Generator! Enter smth or select a style to create your own rap.")
 
-user_input = st.text_input("Enter here:")
+# Text input for lyrics
+user_input = st.text_input("Enter smth here:")
 
 # Option to select a rapper style
 style_options = ['Rapper1', 'Rapper2', 'Rapper3', 'Rapper4']
@@ -28,4 +31,7 @@ if st.button('Generate Rap'):
             st.error("Failed to generate rap")
     else:
         st.warning("Please enter lyrics or select a style.")
+
+# Placeholder to display generated audio
+audio_placeholder = st.empty()
 
