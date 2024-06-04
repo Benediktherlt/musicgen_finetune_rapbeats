@@ -16,3 +16,6 @@ We built a Streamlit app designed to enable users to generate rap beats quickly 
 ## Acknowledgments
 
 This project builds on the foundational work done by Audiocraft - Facebook on the MusicGen model.
+
+
+AS OF NOW THE STREAMLIT APP IS STILL A SIMPLE DEMO CREATED BY GPT. WE SOLELY FOCUSSED ON THE FINETUNING PROCESS SINCE IT IS PRETTY COMPLEX AND WE FIRST WANT TO PRODUCE A GOOD MODEL
