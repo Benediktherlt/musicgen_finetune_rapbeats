@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+streamlit
+requests
+git+https://github.com/USERNAME/audio-to-midi.git
+
