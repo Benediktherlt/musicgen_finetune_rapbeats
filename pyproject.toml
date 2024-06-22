@@ -12,7 +12,8 @@ streamlit = "^1.34.0"
 requests = "^2.31.0"
 fastapi = "^0.111.0"
 uvicorn ="^0.30.1"
-audio-to-midi = {git = "https://github.com/USERNAME/audio-to-midi.git"}
+# audio-to-midi = {git = "https://github.com/NFJones/audio-to-midi.git"}
+paramiko = "^3.4.0"
 
 [build-system]
 requires = ["poetry-core"]
