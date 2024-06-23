@@ -19,6 +19,4 @@ We built a Streamlit app designed to enable users to generate rap beats quickly 
 This project builds on the foundational work done by Audiocraft - Facebook on the MusicGen model.
 
 
-AS OF NOW THE STREAMLIT APP IS STILL A SIMPLE DEMO CREATED BY GPT. WE SOLELY FOCUSSED ON THE FINETUNING PROCESS SINCE IT IS PRETTY COMPLEX AND WE FIRST WANT TO PRODUCE A GOOD MODEL. 
-
-==> SEE finetuning_scripts
+As of now the model weights are stored on a RunPod instance that you can't access from outside. If you want to have access to that instance and try out the streamlit for yourself, write me an email to benedikt(dot)herlt16(at)gmail(dot)com
