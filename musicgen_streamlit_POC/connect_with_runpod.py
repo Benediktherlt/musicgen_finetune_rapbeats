@@ -24,7 +24,7 @@ def transfer_files_and_cleanup(ssh, result, local_output_dir):
 
 def run_inference_on_runpod(prompt):
     ssh_host = "38.128.233.175"
-    ssh_port = 39818
+    ssh_port = 22397
     ssh_user = "root"
     ssh_key_path = os.path.expanduser("~/.ssh/id_ed25519")
     base_dir = os.path.dirname(os.path.abspath(__file__))

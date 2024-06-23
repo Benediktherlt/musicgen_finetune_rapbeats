@@ -164,3 +164,6 @@ secrets.toml
 .DS_store
 .git
 *.wav
+*.mid
+poetry.lock
+requirements.txt
