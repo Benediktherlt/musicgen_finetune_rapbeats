@@ -19,9 +19,9 @@ We built a Streamlit app designed to enable users to generate rap beats quickly 
 As of now the model weights are stored on a RunPod instance that you can't access from outside. If you want to have access to that instance and try out the streamlit for yourself, write me an email to benedikt(dot)herlt16(at)gmail(dot)com and I will provide you with an API-key 
 We will update this repo soon so that you just need to set our RunPod API-key as an environment variable and the whole ssh connection will be handled by the backend pipeline. 
 Let aside all the conveniences we offer for connecting to the RunPod, there is still some things that you need to do manually: 
---create a conda env
---execute "poetry install"
---pip install basic-pitch v. 0.3.3 inside of the conda env (somehow basic-pitch and streamlit are not compatible
+*create a conda env
+*execute "poetry install"
+*pip install basic-pitch v. 0.3.3 inside of the conda env (somehow basic-pitch and streamlit are not compatible
 
 
 ## Acknowledgments
