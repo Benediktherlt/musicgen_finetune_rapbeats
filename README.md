@@ -14,9 +14,19 @@ We built a Streamlit app designed to enable users to generate rap beats quickly 
 
 ![architecture of the project](https://github.com/Benediktherlt/musicgen_finetune_rapbeats/assets/136809065/a6df472c-8b17-494e-8668-b6d8855ae7c2)
 
+## Run the streamlit locally
+
+As of now the model weights are stored on a RunPod instance that you can't access from outside. If you want to have access to that instance and try out the streamlit for yourself, write me an email to benedikt(dot)herlt16(at)gmail(dot)com and I will provide you with an API-key 
+We will update this repo soon so that you just need to set our RunPod API-key as an environment variable and the whole ssh connection will be handled by the backend pipeline. 
+Let aside all the conveniences we offer for connecting to the RunPod, there is still some things that you need to do manually: 
+-create a conda env
+-execute "poetry install"
+-pip install basic-pitch v. 0.3.3 inside of the conda env (somehow basic-pitch and streamlit are not compatible
+
+
 ## Acknowledgments
 
 This project builds on the foundational work done by Audiocraft - Facebook on the MusicGen model.
+We also want to acknowledge Spotify for their great work on the basic-pitch package that we took use of in this project. 
 
 
-As of now the model weights are stored on a RunPod instance that you can't access from outside. If you want to have access to that instance and try out the streamlit for yourself, write me an email to benedikt(dot)herlt16(at)gmail(dot)com
